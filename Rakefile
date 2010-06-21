@@ -5,11 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "wireframe"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Generate images suitable for wireframes"
+    gem.description = "Generate images suitable for wireframes"
     gem.email = "bryan@osesm.com"
     gem.homepage = "http://github.com/bryanl/wireframe"
     gem.authors = ["Bryan Liles"]
+    gem.add_dependency('rmagick', '>= 2.13.1')
+    gem.add_development_dependency('rr')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

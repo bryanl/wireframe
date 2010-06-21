@@ -1,6 +1,6 @@
 = wireframe
 
-Description goes here.
+Generate images to use in wireframe document or website
 
 == Note on Patches/Pull Requests
  
