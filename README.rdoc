@@ -2,6 +2,18 @@
 
 Generate images to use in wireframe document or website
 
+$ wireframe image <size> <output>
+
+where:
+
+size = w+h  -- 80+10 or 800+200
+output = path where you want it to go
+
+== Status
+
+I'm sure this is broken for real right now.  Error checking is 
+minimal.
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
